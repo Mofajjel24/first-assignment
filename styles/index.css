@@ -6,6 +6,12 @@
 }
 
 /* Shared styles */
+
+.secondary-bg{
+    background-color: #4E47FF;
+
+}
+
 .text-primary{
     color: blue;
 }
@@ -45,7 +51,7 @@ nav{
 }
 
 .banner-ad{
-    font-size: 25px;
+    font-size: 50px;
     font-weight: bold;
     color: black;
     align-content: center;
@@ -54,4 +60,140 @@ nav{
 
 
 }
+
+
+
+.about{
+    display: flex;
+    gap:50px
+}
+
+.about-description{
+    color: #252432;
+    font-size: 24px;
+    padding: 10px;
+    
+}
+
+.about-img{
+
+  
+    padding: 18px 35px;
+
+    
+    
+}  
+.about-img img{
+    border-radius: 35px;
+}
+
+.about-container{
+    background-color: skyblue;
+}
+
+.user-items{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.item-title{
+    color: blue;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.item-description{
+    gap:5px;
+}
+
+.user{
+    justify-content: center;
+}
+
+/* .productive-users {
+    background-color: #0066ff;
+    padding: 70px 0;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.productive-users h2 {
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.stat {
+    width: 150px;
+}
+
+.stat h3 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.stat p {
+    font-size: 18px;
+    opacity: 0.9;
+} */
+
+/* Reset default margins and padding */
+body, h2, div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Productive Users Section */
+.productive-section {
+    background-color: #0066FF;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 60px;
+    font-weight: normal;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.stat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-number {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.stat-label {
+    font-size: 20px;
+    /* opacity: 0.9; */
+}
+
+
+
+
+
+
+
+
 
