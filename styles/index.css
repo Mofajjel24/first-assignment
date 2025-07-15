@@ -277,6 +277,66 @@ body, h2, div {
     font-size: 14px;
 }
 
+.focus-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Left Content Section */
+.content-section {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.testimonial_2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-style: normal;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.cta-button {
+    /* background: #0066ff;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 15px;
+    width: auto;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 60px;
+    font-weight: bold; 
+    display: inline-block; */
+
+    background: #0066ff;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+
+    /* background-color: blue;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 10px; */
+} 
+
 
 
 
